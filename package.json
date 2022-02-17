@@ -1,0 +1,29 @@
+{
+  "name": "EST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@openzeppelin/contracts": "4.2.0",
+    "@openzeppelin/hardhat-upgrades": "^1.12.1",
+    "abi-decoder": "^2.4.0",
+    "dotenv": "^11.0.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.0"
+  }
+}
